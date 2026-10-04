@@ -44,3 +44,11 @@
 
 Все feature-ветки вливаются в main через `--no-ff`
 
+## Документация
+
+- [Паспорт Survey Website](docs/survey-passport.md)
+- [Паспорт BaaS Platform](docs/baas-passport.md)
+- [Общая архитектура](docs/architecture.md)
+- [Декомпозиция на модули](docs/modules-decomposition.md)
+- [Контракт API](api-contracts.md)
+

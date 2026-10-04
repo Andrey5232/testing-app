@@ -1,22 +1,9 @@
-\# API Contracts
+API Contracts
+Соглашение между BaaS-платформой и сайтом-опросником.
 
-
-
-Соглашение между BaaS-платформой (`baas-platform`) и сайтом-опросником (`survey-website`).
-
-
-
-\## POST /api/auth/login
-
-
-
+POST /api/auth/login
 Request:
-
-{ "email": "...", "password": "..." }
-
-
+{ "login": "user@example.com", "password": "..." }
 
 Response:
-
-{ "token": "..." }
-
+{ "token": "JWT...", "expires_in": 3600 }

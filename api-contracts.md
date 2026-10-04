@@ -3,7 +3,7 @@ API Contracts
 
 POST /api/auth/login
 Request:
-{ "login": "user@example.com", "password": "..." }
+{ "email": "user@example.com", "password": "..." }
 
 Response:
-{ "token": "JWT...", "expires_in": 3600 }
+{ "access_token": "JWT...", "expires_in": 3600, "user_id": 42 }

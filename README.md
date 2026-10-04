@@ -1,14 +1,46 @@
-\# Testing App
+\# Cloud Ecosystem
 
 
 
-Веб-приложение для тестирования (лабораторные работы по СТП).
+Экосистема из двух независимых веб-сервисов:
+
+\- \*\*baas-platform\*\* — облачная платформа (BaaS): API для аутентификации и профилей.
+
+\- \*\*survey-website\*\* — сайт-опросник, клиент BaaS.
 
 
 
-Команда:
+\## Команда
 
-\- Андрей Иванов (Andrey5232) — модули auth, tests
+\- Андрей Иванов (Andrey5232) — survey-website
 
-\- Николай Вареников (newphantom324) — модули passing, results
+\- Николай Вареников — baas-platform
+
+
+
+\## Ветки
+
+\- `main` — стабильная версия
+
+\- `feature/survey-ui`, `feature/survey-api-client` — модули сайта (Андрей)
+
+\- `feature/baas-auth`, `feature/baas-profile` — модули BaaS (Николай)
+
+
+
+\## Взаимодействие
+
+Сайт-опросник → API-запрос → BaaS-платформа → БД
+
+
+
+\## Контракт API
+
+См. `api-contracts.md`
+
+
+
+\## Merge-стратегия
+
+Все feature-ветки вливаются в main через `--no-ff`
 

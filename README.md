@@ -52,3 +52,10 @@
 - [Декомпозиция на модули](docs/modules-decomposition.md)
 - [Контракт API](api-contracts.md)
 
+## База данных (Лаба №3)
+
+- [ER-модель Survey Website](docs/survey-db.md)
+- [Общая схема БД экосистемы](docs/database-schema.md)
+- [Форматы обмена данными (JSON)](docs/data-contracts.md)
+- [DDL Survey Website](db/survey-schema.sql)
+
